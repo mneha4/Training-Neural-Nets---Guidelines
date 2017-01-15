@@ -59,8 +59,14 @@ PS - Keras with TensorFlow backend was used to code the RNN
  2. Classification - Softmax (makes no sense in hidden layers)
 
 ****
+## Which Optimizer to use?
+     RMSprop is an extension of Adagrad that deals with its radically diminishing learning rates. It is identical to Adadelta, except that Adadelta uses the RMS of parameter updates in the numinator update rule. Adam, finally, adds bias-correction and momentum to RMSprop. Insofar, RMSprop, Adadelta, and Adam are very similar algorithms that do well in similar circumstances. Kingma et al. Bias-correction helps Adam slightly outperform RMSprop towards the end of optimization as gradients become sparser. Insofar, Adam might be the best overall choice.
 
- 
+****
+## When is the learning rate too high or too low?
+    ![picture alt](http://cs231n.github.io/assets/nn3/learningrates.jpeg "Learning rate") 
+
+    
 
 
      

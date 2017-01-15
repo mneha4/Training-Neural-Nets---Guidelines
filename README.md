@@ -10,7 +10,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
  1.  Training the neural network takes long time
  2.  The trained model may not be accurate enough
  3.  Training the network using small batches requires less memory 
-..* **Batch size is very small**
+..* **Batch size is very large** - 
     
     
 

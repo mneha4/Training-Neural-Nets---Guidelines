@@ -29,18 +29,23 @@ The training and validation loss for each epoch can be obtained and plotted as s
      plt.legend(loc = 'upper left')
      plt.show()
      
-**Training loss <<< Validation loss indicates overfitting**
+**Training loss <<< Validation loss --> overfitting model**
  1. Model has learnt noise in the data or has learnt some features which ain't in the validation set. 
  2. Decrease your network size OR add dropout layer OR increase dropout value. 
  3. If training data and validation data belong to different distributions or have different features, increase or decrease the  validation split to have similar training and validation sets.
       
-**Training loss >>> Validation loss --- underfitting**
+**Training loss >>> Validation loss --> underfitting model**
  1. Model has learnt features limited to the validation data only and hence performs better on the validation dataset.
  2. Increase the size of your model (either number of layers or the raw number of neurons per layer)
  3. Changing the validation set may help in some scenarios.
 
+## How to deal with an overfitting model?
 
-     
+ **Adding dropout layer**
+   As shown in image below : ![picture alt](https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj1ncKWzsPRAhWHNY8KHWEnB1gQjRwIBw&url=https%3A%2F%2Fchatbotslife.com%2Fregularization-in-deep-learning-f649a45d6e0&psig=AFQjCNHQkto_UnZN5TK1KERy1GD0vcqJTg&ust=1484551148844307
+ "Dropout Layer") 
+
+        
      
 
  

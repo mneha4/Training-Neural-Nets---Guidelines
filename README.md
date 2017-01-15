@@ -18,8 +18,6 @@ PS - Keras with TensorFlow backend was used to code the RNN
  2.  Training the network using large batch size requires more memory and if memory(less RAM) is a constraint then batch size must be small
 **** 
 ## Interpreting training and validation loss
-The training and validation loss for each epoch can be obtained and plotted as shown below -
-     
      hist = model.fit(load_train, y_train, batch_size=2048, nb_epoch=1000, verbose=1 , validation_split = 0.10)
      y = hist.history
      plt.plot(x , y['loss'] , label = 'TRAINING LOSS')

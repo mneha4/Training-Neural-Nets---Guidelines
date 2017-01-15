@@ -40,9 +40,8 @@ The training and validation loss for each epoch can be obtained and plotted as s
  3. Changing the validation set may help in some scenarios.
 
 ## How to deal with an overfitting model?
-
- **Adding dropout layer**
- As shown in image below : ![picture alt](https://cdn-images-1.medium.com/max/800/1*IrdJ5PghD9YoOyVAQ73MJw.gif "Dropout Layer") 
+ **Adding dropout layer** Dropout layer with dropout value 0.5 works as fllows : 
+ ![picture alt](https://cdn-images-1.medium.com/max/800/1*IrdJ5PghD9YoOyVAQ73MJw.gif "Dropout Layer") 
 
         
      

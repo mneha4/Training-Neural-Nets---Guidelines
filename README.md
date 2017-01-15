@@ -64,7 +64,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
 
 ****
 ## When is the learning rate too high or too low?
-    As shown in image below : ![picture alt](http://cs231n.github.io/assets/nn3/learningrates.jpeg "Fluctuations in training loss") 
+   As shown in image below : ![picture alt](http://cs231n.github.io/assets/nn3/learningrates.jpeg "Fluctuations in training loss") 
 
     
 

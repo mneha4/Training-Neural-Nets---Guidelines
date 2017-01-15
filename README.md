@@ -64,6 +64,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
 
 ****
 ## When is the learning rate too high or too low?
+    Refer the image below:
     ![picture alt](http://cs231n.github.io/assets/nn3/learningrates.jpeg "Learning rate") 
 
     

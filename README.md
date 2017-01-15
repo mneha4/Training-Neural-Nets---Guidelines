@@ -5,7 +5,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
 ****
 ## Table of contents
 <a name="Batch Size"></a>What batch size should be used to train the network?
-
+[create an anchor](#anchors-in-markdown)
 
 ****
 ## What batch size should be used to train the network?

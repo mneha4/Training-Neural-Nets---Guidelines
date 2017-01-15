@@ -10,8 +10,8 @@ PS - Keras with TensorFlow backend was used to code the RNN
  1.  Training the neural network takes long time
  2.  The trained model may not be accurate enough
  3.  Training the network using small batch size requires less memory 
- 4.  Training error fluctuates a lot.
-     Markup : ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional") 
+ 4.  Training loss fluctuates a lot.
+     Markup : ![picture alt](http://cs231n.github.io/assets/nn3/loss.jpeg "Fluctuations in training loss") 
 
 **Batch size is very large** - 
  1.  Training the neural network takes long time

@@ -47,6 +47,17 @@ The training and validation loss for each epoch can be obtained and plotted as s
 1. Weight regularization - will constantly decay the weights.
 2. Activity regularization - will tend to make the output of the layer smaller (used to regularize the output of a neural network.)
 
+## Which activation functions to use?
+**Hidden Layers**-
+1. Shallow Network - tanh or Sigmoid
+2. Deep Network - ReLU or Softplus 
+
+**Output Layer**
+1. Regression - Linear (makes no sense in hidden layers)
+2. Classification - Softmax (makes no sense in hidden layers)
+
+
+ 
 
 
      

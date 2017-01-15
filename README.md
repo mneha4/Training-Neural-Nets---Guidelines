@@ -42,8 +42,7 @@ The training and validation loss for each epoch can be obtained and plotted as s
 ## How to deal with an overfitting model?
 
  **Adding dropout layer**
-   As shown in image below : ![picture alt](https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj1ncKWzsPRAhWHNY8KHWEnB1gQjRwIBw&url=https%3A%2F%2Fchatbotslife.com%2Fregularization-in-deep-learning-f649a45d6e0&psig=AFQjCNHQkto_UnZN5TK1KERy1GD0vcqJTg&ust=1484551148844307
- "Dropout Layer") 
+   As shown in image below : ![picture alt](https://cdn-images-1.medium.com/max/800/1*IrdJ5PghD9YoOyVAQ73MJw.gif "Dropout Layer") 
 
         
      

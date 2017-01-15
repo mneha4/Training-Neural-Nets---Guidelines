@@ -9,12 +9,9 @@ PS - Keras with TensorFlow backend was used to code the RNN
  **Batch size is very small** - 
  1.  Training the neural network takes long time
  2.  The trained model may not be accurate enough
- 3.  Training the network using small batches requires less memory
+ 3.  Training the network using small batches requires less memory 
 ..* **Batch size is very small**
     
-    very large - less time, more memory
-    --- If batch size is too small - training error fluctuates A LOT!!
-
-
+    
 
 

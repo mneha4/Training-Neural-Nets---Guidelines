@@ -3,7 +3,7 @@ This article focusses on the problems that I faced during training of a recurren
 PS - Keras with TensorFlow backend was used to code the RNN
 
 ## Table of contents
- 
+****
 ## What batch size should be used to train the network?
      model.fit(load_train, y_train, batch_size=2048, nb_epoch=1000, verbose=1 , validation_split = 0.10)
 **Batch size is very small** - 
@@ -16,7 +16,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
 **Batch size is very large** - 
  1.  Training the neural network takes long time
  2.  Training the network using large batch size requires more memory and if memory(less RAM) is a constraint then batch size must be small
- 
+**** 
 ## Interpreting training and validation loss
 The training and validation loss for each epoch can be obtained and plotted as shown below -
 
@@ -38,7 +38,7 @@ The training and validation loss for each epoch can be obtained and plotted as s
  1. Model has learnt features limited to the validation data only and hence performs better on the validation dataset.
  2. Increase the size of your model (either number of layers or the raw number of neurons per layer)
  3. Changing the validation set may help in some scenarios.
-
+****
 ## How to deal with an overfitting model?
  **Adding dropout layer**   Dropout layer with dropout value 0.5 works as follows : 
  ![picture alt](https://cdn-images-1.medium.com/max/800/1*IrdJ5PghD9YoOyVAQ73MJw.gif "Dropout Layer") 
@@ -46,7 +46,7 @@ The training and validation loss for each epoch can be obtained and plotted as s
 **L2 and L1 regularisation**
 1. Weight regularization - will constantly decay the weights.
 2. Activity regularization - will tend to make the output of the layer smaller (used to regularize the output of a neural network.)
-
+****
 ## Which activation functions to use?
 **Hidden Layers -**
  1. Shallow Network - tanh or Sigmoid
@@ -55,7 +55,7 @@ The training and validation loss for each epoch can be obtained and plotted as s
 **Output Layer -**
  1. Regression - Linear (makes no sense in hidden layers)
  2. Classification - Softmax (makes no sense in hidden layers)
-
+****
 
  
 

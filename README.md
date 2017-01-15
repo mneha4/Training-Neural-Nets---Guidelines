@@ -56,8 +56,9 @@ PS - Keras with TensorFlow backend was used to code the RNN
           .
           model.fit(load_train, y_train, batch_size=2048, nb_epoch=1000,validation_split = 0.10, callbacks = [early_stopping])
 
-  PATIENCE IN EARLY STOPPING - 
-     Number of epochs to wait before early stop, if there is no progress on validation set. Patience is generally between 10-100 with the range 10-20 being more common.
+  **PATIENCE IN EARLY STOPPING -** 
+  Number of epochs to wait before early stop, if there is no progress on validation set. Patience is generally between 10-100
+  with the range 10-20 being more common.
 
 ****
 ## Which activation functions to use?

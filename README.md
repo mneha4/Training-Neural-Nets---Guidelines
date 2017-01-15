@@ -40,11 +40,15 @@ The training and validation loss for each epoch can be obtained and plotted as s
  3. Changing the validation set may help in some scenarios.
 
 ## How to deal with an overfitting model?
- **Adding dropout layer**   
- Dropout layer with dropout value 0.5 works as follows : 
+ **Adding dropout layer**   Dropout layer with dropout value 0.5 works as follows : 
  ![picture alt](https://cdn-images-1.medium.com/max/800/1*IrdJ5PghD9YoOyVAQ73MJw.gif "Dropout Layer") 
 
-        
+**L2 and L1 regularisation**
+1. Weight regularization - will constantly decay the weights.
+2. Activity regularization - will tend to make the output of the layer smaller (used to regularize the output of a neural network.)
+
+
+
      
 
  

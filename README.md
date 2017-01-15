@@ -4,7 +4,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
 
 ## Table of contents
  
-### What batch size should be used to train the network?
+## What batch size should be used to train the network?
      model.fit(load_train, y_train, batch_size=2048, nb_epoch=1000, verbose=1 , validation_split = 0.10)
 **Batch size is very small** - 
  1.  Training the neural network takes long time
@@ -17,7 +17,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
  1.  Training the neural network takes long time
  2.  Training the network using large batch size requires more memory and if memory(less RAM) is a constraint then batch size must be small
  
-#### Interpreting training and validation loss
+## Interpreting training and validation loss
 The training and validation loss for each epoch can be obtained and plotted as shown below -
 
      hist = model.fit(load_train, y_train, batch_size=2048, nb_epoch=1000, verbose=1 , validation_split = 0.10)

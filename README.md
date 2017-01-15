@@ -44,9 +44,9 @@ PS - Keras with TensorFlow backend was used to code the RNN
  ![picture alt](https://cdn-images-1.medium.com/max/800/1*IrdJ5PghD9YoOyVAQ73MJw.gif "Dropout Layer") 
 
 **L2 and L1 regularisation**
-1. Weight regularization - will constantly decay the weights.
-2. Activity regularization - will tend to make the output of the layer smaller (used to regularize the output of a neural
-network.)
+ 1. Weight regularization - will constantly decay the weights.
+ 2. Activity regularization - will tend to make the output of the layer smaller (used to regularize the output of a neural
+ network.)
 
 ****
 ## Which activation functions to use?

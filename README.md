@@ -47,6 +47,17 @@ PS - Keras with TensorFlow backend was used to code the RNN
  1. Weight regularization - will constantly decay the weights.
  2. Activity regularization - will tend to make the output of the layer smaller (used to regularize the output of a neural
  network.)
+ 
+**Early Stopping**
+
+          from keras.callbacks import EarlyStopping
+          early_stopping = EarlyStopping(monitor = 'val_loss' , patience = 0.9)
+          .
+          .
+          model.fit(load_train, y_train, batch_size=2048, nb_epoch=1000,validation_split = 0.10, callbacks = [early_stopping])
+
+  PATIENCE IN EARLY STOPPING - 
+     Number of epochs to wait before early stop, if there is no progress on validation set. Patience is generally between 10-100 with the range 10-20 being more common.
 
 ****
 ## Which activation functions to use?
@@ -64,7 +75,6 @@ PS - Keras with TensorFlow backend was used to code the RNN
 
 ****
 ## When is the learning rate too high or too low?
-   As shown in image below : 
    ![picture alt](http://cs231n.github.io/assets/nn3/learningrates.jpeg "Fluctuations in training loss") 
 
        Learning rate can be changed in keras by importing the 'LearningRateScheduler' from keras.callbacks

@@ -80,6 +80,18 @@ PS - Keras with TensorFlow backend was used to code the RNN
 
        Learning rate can be changed in keras by importing the 'LearningRateScheduler' from keras.callbacks
        
+****
+## What does return_sequences = False/True do?
+     model.add(LSTM( input_dim=1, output_dim = 16, return_sequences = True))
+
+1.   return_sequences=False
+     If we consider input shape for lstm layer (nb_samples, timesteps, input_dim) and number of neurons in this layer equals to  hidden_neurons, then the output shape will be (nb_samples,hidden_neurons) for this layer, which means we have only the last output for the whole sequence in each lstm neuron.
+
+2.    return_sequences=True:
+     If we consider input shape for lstm layer (nb_samples, timesteps, input_dim) and number of neurons in this layer equals to hidden_neurons, then the output shape will be (nb_samples, timesteps ,hidden_neurons) for this layer, which means we have the full sequence as output in each lstm neuron.
+
+****
+       
        
    
 

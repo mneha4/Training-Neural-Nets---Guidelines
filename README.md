@@ -29,7 +29,7 @@ The training and validation loss for each epoch can be obtained and plotted as s
      plt.legend(loc = 'upper left')
      plt.show()
      
-** Training loss <<< Validation loss --- overfitting **
+** Training loss <<< Validation loss indicates overfitting **
  1. Model has learnt noise in the data or has learnt some features which ain't in the validation set. 
  2. Decrease your network size OR add dropout layer OR increase dropout value. 
  3. If training data and validation data belong to different distributions or have different features, increase or decrease the  validation split to have similar training and validation sets.

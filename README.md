@@ -4,8 +4,13 @@ This article focusses on the problems that I faced during training of a recurren
 PS - Keras with TensorFlow backend was used to code the RNN
 ****
 ## Table of contents
-<a name="Batch Size"></a>What batch size should be used to train the network?
-[create an anchor](#anchors-in-markdown)
+[Batch Size](#What batch size should be used to train the network?)
+[Interpreting training and validation loss](Interpreting training and validation loss)
+[How to deal with an overfitting model?](How to deal with an overfitting model?)
+[Which activation functions to use?](Which activation functions to use?)
+[Which Optimizer to use?](Which Optimizer to use?)
+[When is the learning rate too high or too low?](When is the learning rate too high or too low?)
+[What does return_sequences = False/True do?](What does return_sequences = False/True do?)
 
 ****
 ## What batch size should be used to train the network?

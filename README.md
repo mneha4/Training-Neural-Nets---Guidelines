@@ -52,6 +52,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
 **Hidden Layers -**
  1. Shallow Network - tanh or Sigmoid
  2. Deep Network - ReLU or Softplus 
+
 **Output Layer -**
  1. Regression - Linear (makes no sense in hidden layers)
  2. Classification - Softmax (makes no sense in hidden layers)

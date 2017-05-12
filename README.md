@@ -33,7 +33,7 @@ PS - Keras with TensorFlow backend was used to code the RNN
  2. Decrease your network size OR add dropout layer OR increase dropout value. 
  3. If training data and validation data belong to different distributions or have different features, increase or decrease the  validation split to have similar training and validation sets.
       
-**Training loss >>> Validation loss --> underfitting model**
+**Training loss ~ Validation loss --> underfitting model**
  1. Model has learnt features limited to the validation data only and hence performs better on the validation dataset.
  2. Increase the size of your model (either number of layers or the raw number of neurons per layer)
  3. Changing the validation set may help in some scenarios.
